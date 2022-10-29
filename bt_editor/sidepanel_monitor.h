@@ -20,7 +20,7 @@ public:
     /// Default timeout to get behavior tree, in milliseconds.
     static constexpr int _load_tree_default_timeout_ms = 1000;
     /// Timeout to get behavior tree during autoconnect, in milliseconds.
-    static constexpr int _load_tree_autoconnect_timeout_ms = 10000;
+    static constexpr int _load_tree_autoconnect_timeout_ms = 100000;
 
     explicit SidepanelMonitor(QWidget *parent = nullptr,
                               const QString &address = "",
